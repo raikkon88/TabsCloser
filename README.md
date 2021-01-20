@@ -1,6 +1,6 @@
 # Description
 
-At this moment this extension only closes the tabs which url starts with :
+At this moment this extension only closes tabs which url starts with :
 
 ```
 https://www.ringcentral.com/post_meeting/*
