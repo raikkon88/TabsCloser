@@ -2,8 +2,8 @@
 
 At this moment this extension only closes tabs which satisfies the condition:
 
-- url startsWith https://*.ringcentral.com/*/*
-- url contains the word "post_meeting"
+- url startsWith `https://*.ringcentral.com/*/*`
+- url contains the word `post_meeting`
 
 # Scripts
 
