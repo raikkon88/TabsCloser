@@ -1,10 +1,13 @@
 # Description
 
-At this moment this extension only closes tabs which url starts with :
+At this moment this extension only closes tabs which satisfies the condition:
 
-```
-https://www.ringcentral.com/post_meeting/*
-```
+- url startsWith https://*.ringcentral.com/*/*
+- url contains the word "post_meeting"
+
+# Scripts
+
+background.js -> There is only one script in background. This script is applied on every tab opened in the browser.
 
 # Install
 
