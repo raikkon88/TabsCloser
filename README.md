@@ -5,6 +5,11 @@ At this moment this extension only closes tabs which satisfies the condition:
 - url startsWith `https://*.ringcentral.com/*/*`
 - url contains the word `post_meeting`
 
+and
+
+- url startsWith `https://launchmetrics.zoom.us/*/*`
+- url contains the word `success`
+
 # Scripts
 
 background.js -> There is only one script in background. This script is applied on every tab opened in the browser.
