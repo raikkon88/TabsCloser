@@ -3,9 +3,11 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
         tabs.forEach(tab => {
             console.log("found -> ", tab.url);
             if (tab.url.includes("success")) {
-                console.log("includes");
-                chrome.tabs.remove(tab.id, () =>
-                    console.log(`closed ${tab.url}`));
+                setTimeout(() => {
+                    console.log("includes");
+                    chrome.tabs.remove(tab.id, () =>
+                        console.log(`closed ${tab.url}`));
+                }, 1000)
             }
         });
     });
