@@ -10,6 +10,11 @@ and
 - url startsWith `https://launchmetrics.zoom.us/*/*`
 - url contains the word `success`
 
+and
+
+- url startsWith `https://launchmetrics.awsapps.com/*/*`
+- url contains the word `login-success`
+
 # Scripts
 
 background.js -> There is only one script in background. This script is applied on every tab opened in the browser.
